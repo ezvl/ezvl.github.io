@@ -1,0 +1,28 @@
+body{
+	padding-top: 70px;
+}
+.jumbotron{
+	color: #374d72;
+	background: #79d89c;
+}
+
+img{
+	max-height: 200px;
+}
+
+.navbar-inverse
+{
+	background: #4fa36e;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+body{
+	background: black;
+}
