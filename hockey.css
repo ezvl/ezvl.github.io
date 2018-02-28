@@ -8,6 +8,10 @@ div{
 	margin: 40 auto;	
 }
 
+canvas{
+     border: 5px solid white;
+}
+
 p{
 	text-align: center;
 }
