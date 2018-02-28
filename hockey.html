@@ -5,7 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="hockey.css">
 </head>
 <body>
-	<h1> WELCOME TO THE GAME!</h1>
+	<h1> WELCOME TO THE GAME</h1>
+	<h2> Play Up To 7 !</h2>
 	<div>
 	<p>
 	<canvas id = "gameCanvas" width="800" height="600">
@@ -153,7 +154,7 @@
 
 	function drawEverything() {
 		//screem
-		colorRect(0,0,canvas.width, canvas.height,'#1ace50');
+		colorRect(0,0,canvas.width, canvas.height,'#0c9e3f');
 
 		if(showingWinScreen){ //if(showingWinScreen == true)
 			canvasContext.fillStyle = 'white';
@@ -176,14 +177,17 @@
 		//paddle left
 		colorRect(10,paddle1Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
 		//paddle right
-		colorRect(canvas.width - 10,paddle2Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
+		colorRect(canvas.width - 20,paddle2Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
 		//ball
 		//colorRect(ballX,100,10,10,'red');
-		colorCircle(ballX, ballY, 10, 'red')
+		colorCircle(ballX, ballY, 10, '#ffd83d')
 
 		canvasContext.fillStyle = 'white';
 
+
+		canvasContext.fillText('You', 80 , 50);
 		canvasContext.fillText(player1Score, 100 , 100);
+		canvasContext.fillText('Computer', canvas.width - 180, 50);
 		canvasContext.fillText(player2Score, canvas.width - 100 , 100);
 
 	}
@@ -205,6 +209,5 @@
 
 	</script>
 	</div>
-	
 </body>
 </html>
