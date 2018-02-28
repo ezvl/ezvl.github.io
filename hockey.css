@@ -1,0 +1,19 @@
+body{
+	background-image: url("https://vectortoons.com/wp-content/uploads/2017/03/a-football-stadium-background.jpg");
+	background-size: 120%;
+	background-repeat: no-repeat;;
+}
+
+div{
+	margin: 40 auto;	
+}
+
+p{
+	text-align: center;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 400%
+}
