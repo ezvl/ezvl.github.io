@@ -1,0 +1,13 @@
+div{
+	background-color: #ccddff;
+	padding: 15px;
+	border-style: solid;
+	width:500px; 
+	margin:0 auto;
+}
+
+body{
+	background-image: url(background2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
