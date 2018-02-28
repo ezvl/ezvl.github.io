@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title>Form</title>
+ <link rel="stylesheet" type="text/css" href="first.css">
+<h1 align="center"> <b> REGISTER </b> </h1>
+</head>
+
+
+<body>
+	<div>
+		<label for="first">First Name:</label>
+		<input id="first" type="text" name="first" placeholder="John" required>
+		<p></p>
+		<label for="last">Last Name:</label>
+		<input id="last" type="text" name="last" placeholder="Smith" required>
+		<p></p>
+
+		<form action="http://www.wikipedia.org" method="GET">
+		<label> 
+			Email: 
+			<input name = "username" type="email" placeholder="username" required>
+		</label>
+		<p></p>
+		<label> 
+			Password: 
+			<input name = "password" type="password" placeholder="password" pattern=".{5,10}" required title ="5 to 10 characters">
+		</label>
+		<p></p>
+
+	  	Birthday:
+		<input type="date" name="bday">
+
+		<p>Gender:</p>
+		<label for="male">Male</label>
+		<input name="gender" type="radio" id="male" value="male">	
+			
+		<label for="female">Female</label>	
+		<input name="gender"  type="radio" name="female" value="fem">
+
+		<p>What is your race?</p>
+		<select name = "race">
+			<option value = "White">White</option>
+			<option value="Asian">Asian</option>
+			<option value="Black">Black</option>
+			<option value="Latino">Latino</option>
+			<option value="N\A">I choose not to identify</option>
+		</select>
+		<p></p>
+		<input type="color" name="">
+		<p> Tell us about yourself </p>
+		<textarea rows="10" cols="50"></textarea>
+		<p></p>
+		<input type="submit">
+		</form>
+	</div>
+	
+</body>
+
+</html>
