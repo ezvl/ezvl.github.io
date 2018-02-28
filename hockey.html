@@ -6,7 +6,6 @@
 </head>
 <body>
 	<h1> WELCOME TO THE GAME</h1>
-	<h2> Play Up To 7 !</h2>
 	<div>
 	<p>
 	<canvas id = "gameCanvas" width="800" height="600">
@@ -98,10 +97,10 @@
 	function computerMovement(){
 		var paddle2YCenter = paddle2Y + (PADDLE_HEIGHT / 2);
 		if (paddle2YCenter < ballY-35) {
-			paddle2Y = paddle2Y + 6;
+			paddle2Y = paddle2Y + 12;
 		}
 		else if (paddle2YCenter > ballY+35){
-			paddle2Y = paddle2Y - 6;
+			paddle2Y = paddle2Y - 12;
 		}
 	}
 
@@ -209,5 +208,6 @@
 
 	</script>
 	</div>
+	<h2> Play Up To 7</h2>
 </body>
 </html>
