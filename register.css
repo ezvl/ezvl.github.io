@@ -7,7 +7,7 @@ div{
 }
 
 body{
-	background-image: url(background2.jpeg);
+	background-image: url("https://github.com/ezvl/ezvl.github.io/blob/master/background.jpeg?raw=true");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
