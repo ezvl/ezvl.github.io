@@ -1,0 +1,132 @@
+h1{
+    font-weight: 300;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    text-shadow: 0px 14px 13px rgba(1,1,1,1.4),
+                 0px 18px 23px rgba(1,1,1,1.1),
+                 0px 28px 33px rgba(1,1,1,1.1); 
+}
+
+h2{
+    font-family: 'Pangolin', cursive;
+    font-size: 30px;
+    font-style: italic;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body {
+  margin: 0;
+  background-color: black;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.welcome{
+    background-image: url("https://www.thesecu.com/wp-content/uploads/2015/06/0005-960x540.jpg");
+    background-size: cover;
+    height: 400px;
+
+}
+
+.leftside{
+    float: left;
+    width: 35%;
+    height: 600px;
+/*    background: linear-gradient(silver, white);*/
+    background: linear-gradient(to right, silver , white);
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 45px;
+    border: solid 8px white;
+    
+}
+
+.rightside{
+    float: left;
+    width: 57%;
+    height: 600px;
+    border: white 2px;
+    background-color: yellow;
+    border: solid 8px white;
+    padding: 20px;
+    background: linear-gradient(#ffcb63, white);
+    font-family: 'Pangolin', cursive;
+    font-family: 'Muli', sans-serif;
+}
+
+#facebook{
+    float: left;
+    width: 10%;
+}
+#instagram{
+    float: left;
+    width: 10%;
+}
+#twitter{
+    float: left;
+    width: 10%;
+}
+#email{
+    float: left;
+    width: 10%;
+}
