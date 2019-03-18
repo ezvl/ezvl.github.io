@@ -2,8 +2,8 @@ body{
 	padding-top: 70px;
 }
 .jumbotron{
-	color: #374d72;
-	background: #79d89c;
+	color: white;
+	background: #e50606;
 }
 
 img{
@@ -12,7 +12,7 @@ img{
 
 .navbar-inverse
 {
-	background: #4fa36e;
+	background: #e50606;
 }
 
 .navbar-inverse .navbar-nav>li>a {
